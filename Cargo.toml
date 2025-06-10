@@ -3,4 +3,11 @@ name = "fiano_swap"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["Nguyen Hai Dang <neurocurior1109@gmail.com>"]
+description = "A simple generic swap function for two values using Copy trait. This library provides a safe and easy way to swap variables in Rust."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dangkaz1109/fiano_swap"
+keywords = ["swap", "generic", "utility", "memory", "no-std-friendly"]
+categories = ["algorithms", "rust-patterns", "no-std"]
+
 [dependencies]

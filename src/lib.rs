@@ -1,5 +1,5 @@
 
-fn swap<T: Copy>(a: &mut T, b: &mut T) {
+pub fn swap<T: Copy>(a: &mut T, b: &mut T) {
     let c : T = *a;
     *a = *b;
     *b = c;
